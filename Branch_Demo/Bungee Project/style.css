@@ -1,0 +1,155 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.navBar {
+  min-width: 1000px;
+  background-color: aqua;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: fit-content;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav li a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.button {
+  color: #003b63;
+  font-size: 19px;
+  margin: 30px 5px;
+  padding: 15px 15px;
+  border: 2px solid;
+  text-decoration: none;
+  width: 150px;
+  display: inline-block;
+}
+
+#intro {
+  background: url("img/bridge3.jpg") center center / cover;
+  background-repeat: no-repeat;
+  padding-top: 250px;
+  padding-bottom: 300px;
+  width: 100%;
+}
+
+.intro-block {
+  padding-top: 5px;
+  box-sizing: border-box;
+  background-color: #bcf200;
+}
+
+/* .intro-block a {
+  display: inline-block;
+} */
+
+.ultraBungee {
+  height: 80%;
+  margin-top: 1;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+
+.article1,
+.article2 {
+  width: 100%;
+  display: inline-block;
+}
+
+#bridge {
+  background: url("img/bridge_hero_image.jpg") center center / cover;
+  background-repeat: no-repeat;
+  padding-top: 250px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+.bridgebanner {
+  background-color: darkblue;
+  padding: 10px;
+  margin-top: 10%;
+}
+
+.moreinfo {
+  width: 100%;
+  display: grid;
+  text-align: center;
+  place-items: center;
+}
+
+.bridgeprice {
+  height: auto;
+}
+
+.bridgeprice h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  color: #003b63;
+}
+
+.instruction {
+  padding-top: 50px;
+}
+
+.instrujump {
+  width: 100%;
+}
+
+.instrujump ul {
+  padding-left: 150px;
+  padding-right: 100px;
+}
+
+.instrujump li {
+  text-align: left;
+  margin-bottom: 30px;
+  overflow-wrap: break-word; /* Ensures long words break and wrap */
+  word-wrap: break-word; /* Older syntax for compatibility */
+  white-space: normal; /* Ensures text wraps (default behavior) */
+  /* margin-left: 10px; */
+  /* width: fit-content; */
+}
+
+.bridgepage {
+  background-color: #9cc5a1;
+}
+
+.wholediv {
+  width: 60%;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  background-color: cadetblue;
+  min-width: 1000px;
+  margin: 0 auto;
+}
+
+.jumpgallery {
+  display: flex;
+  /* flex-direction: row column; */
+  justify-content: center;
+}
+
+.jumpgallery img {
+  margin: 2px;
+}
+
+p {
+  margin: 20px;
+}
